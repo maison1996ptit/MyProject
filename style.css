@@ -53,7 +53,13 @@ li
     margin-top: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 0.2px solid #000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000; 
+}
+.list li:last-child
+{
+    border-bottom: 1px solid #000;
 }
 .item 
 {
